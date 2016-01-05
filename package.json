@@ -1,0 +1,23 @@
+{
+  "name": "html5-template",
+  "version": "0.2.0",
+  "description": "A basic HTML5 template primarily designed for quick prototyping.",
+  "main": "index.html",
+  "scripts": {
+    "start": "ws",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevejrobertson/html5-template.git"
+  },
+  "author": "Steve Robertson <stevejr@steverobertson.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevejrobertson/html5-template/issues"
+  },
+  "homepage": "https://github.com/stevejrobertson/html5-template#readme",
+  "devDependencies": {
+    "local-web-server": "^1.1.0"
+  }
+}
