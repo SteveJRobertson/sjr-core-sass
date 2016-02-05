@@ -1,0 +1,81 @@
+@mixin line-height($line-height-px) {
+    $line-height: ($line-height-px / $DEFAULT_FONT_SIZE);
+
+    line-height: $line-height;
+}
+
+@mixin text-scale($step) {
+    $font-size: $base-font-size;
+    $scale: $base-scale-factor;
+    $computed-font-size: round($font-size * pow($scale, $step));
+    $line-height: round($font-size * $base-line-height);
+    $lines: ceil($computed-font-size / $line-height);
+    $computed-line-height: (($line-height * $lines) - $computed-font-size);
+    $margin-top: $line-height;
+    $margin-bottom: $line-height;
+
+    @if $step > 1 {
+        $margin-top: $line-height * 2;
+        $margin-bottom: $margin-top;
+    } @else if $step < 1 {
+        $margin-bottom: 0;
+    }
+
+    font-size: em($computed-font-size);
+    @include line-height($computed-line-height);
+    margin-top: $margin-top + px;
+    margin-bottom: $margin-bottom + px;
+}
+
+@mixin headings($step: $heading-count) {
+    @for $i from 1 through $heading-count {
+        $power: ($step - $i) + 1;
+        
+        @if ($power < 0) {
+            $power: 0;
+        }
+
+        h#{$i} {
+            @include text-scale($power);
+        }
+    }
+
+    %bold {
+        font-weight: 600;
+    }
+
+    h1 {
+        @extend %bold;
+    }
+
+    h2 {
+        @extend %bold;
+    }
+
+    h3 {
+        @extend %bold;
+    }
+
+    h4 {
+        @extend %bold;
+    }
+
+    h5 {
+        @extend %bold;
+        font-style: italic;
+    }
+}
+
+@mixin margins($base-value: $base-font-size) {
+    $margin: round($base-value * $base-line-height);
+
+    margin-top: em($margin, $base-value);
+    margin-bottom: em($margin, $base-value);
+
+}
+
+@mixin body-text($font-size: $base-font-size) {
+    @include font-size($font-size);
+    line-height: $base-line-height;
+    padding: $base-line-height + em;
+}

@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/0-reset/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/0-reset/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/0-reset/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../sass/0-reset/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../sass/0-reset/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/0-reset/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../sass/0-reset/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, ../sass/5-style/_typography.scss */
+body {
+  font-size: 1.125em;
+  line-height: 1.5;
+  padding: 1.5em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 42, ../sass/3-mixins/_typography.scss */
+h1 {
+  font-size: 4.75em;
+  line-height: 0.3125;
+  margin-top: 54px;
+  margin-bottom: 54px;
+}
+
+/* line 42, ../sass/3-mixins/_typography.scss */
+h2 {
+  font-size: 2.9375em;
+  line-height: 0.4375;
+  margin-top: 54px;
+  margin-bottom: 54px;
+}
+
+/* line 42, ../sass/3-mixins/_typography.scss */
+h3 {
+  font-size: 1.8125em;
+  line-height: 1.5625;
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+
+/* line 42, ../sass/3-mixins/_typography.scss */
+h4 {
+  font-size: 1.125em;
+  line-height: 0.5625;
+  margin-top: 27px;
+  margin-bottom: 0px;
+}
+
+/* line 42, ../sass/3-mixins/_typography.scss */
+h5 {
+  font-size: 1.125em;
+  line-height: 0.5625;
+  margin-top: 27px;
+  margin-bottom: 0px;
+}
+
+/* line 42, ../sass/3-mixins/_typography.scss */
+h6 {
+  font-size: 1.125em;
+  line-height: 0.5625;
+  margin-top: 27px;
+  margin-bottom: 0px;
+}
+
+/* line 47, ../sass/3-mixins/_typography.scss */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+/* line 67, ../sass/3-mixins/_typography.scss */
+h5 {
+  font-style: italic;
+}
+
+/* line 8, ../sass/5-style/_typography.scss */
+p, ul {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* line 12, ../sass/5-style/_typography.scss */
+.small {
+  font-size: 0.6875em;
+  line-height: 1;
+  margin-top: 27px;
+  margin-bottom: 0px;
+  margin-top: 1.55556em;
+  margin-bottom: 1.55556em;
+}
+
+/* line 17, ../sass/5-style/_typography.scss */
+ul {
+  margin-left: 1.5em;
+}
+
+/* line 21, ../sass/5-style/_typography.scss */
+li {
+  list-style: disc;
+}
+/* line 26, ../sass/5-style/_typography.scss */
+li ul li {
+  list-style: circle;
+}
+
+/* line 36, ../sass/5-style/_typography.scss */
+.subheading {
+  color: grey;
+}

@@ -1,0 +1,38 @@
+body {
+    @include body-text();
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@include headings(3);
+
+p, ul {
+    @include margins();
+}
+
+.small {
+    @include text-scale(-1);
+    @include margins($base-font-size *.5);
+}
+
+ul {
+    margin-left: $base-line-height + em;
+}
+
+li {
+    list-style: disc;
+
+    ul {
+
+        li {
+            list-style: circle;
+        }
+    }
+}
+
+.heading { 
+
+}
+
+.subheading {
+    color: grey;
+}
