@@ -6,8 +6,8 @@ It's currently in it's infancy but will be expanded over time.
 
 Who knows, I might even come up with a wacky name for it when it's ready!
 
-At present there is only typography rules, but a grid system will shortly be
-added, followed by forms, tables and other HTML components.
+At present there is only rules for the grid and typography, but I will shortly 
+be adding tables and other HTML components.
 
 ## Usage
 
