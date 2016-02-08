@@ -1,0 +1,15 @@
+body {
+    width: 100%;
+
+    @include clearfix();
+}
+
+@include wrap();
+
+.row {
+    margin: 0 (0 - $base-size);
+
+    @include clearfix();
+}
+
+@include columns();

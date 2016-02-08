@@ -1,0 +1,57 @@
+@mixin wrapper() {
+    padding: 0 $base-size;
+    width: 100%;
+}
+
+@mixin wrap() {
+    .wrapper {
+        @include wrapper;
+    }
+    
+    @each $breakpoint, $breakpoint-value in $breakpoints {
+        @include breakpoint($breakpoint-value) {
+            .wrapper--#{$breakpoint} {
+                @include wrapper;
+                margin: 0 auto;
+                max-width: $breakpoint-value;
+            }  
+        }
+    }
+}
+
+@mixin column-shared() {
+    position: relative;
+    min-height: 1px;
+    padding: 0 $base-size;
+}
+
+@mixin column-width($width) {
+    $column-width: ($row-width / $columns) * $width;
+    /// Float is only required when width is specified
+    float: left;
+    width: $column-width;
+}
+
+@mixin columns() {
+    @for $i from 1 through $columns {
+        .col-#{$i} {
+            @include column-shared();
+            @include column-width($i);
+        }
+    }
+
+    @each $breakpoint, $breakpoint-value in $breakpoints {
+        @for $i from 1 through $columns {
+            .col-#{$i}--#{$breakpoint} {
+                @include column-shared();
+            }
+        }
+        @include breakpoint($breakpoint-value) {
+            @for $i from 1 through $columns {
+                .col-#{$i}--#{$breakpoint} {
+                    @include column-width($i);
+                }
+            }
+        }
+    }
+}

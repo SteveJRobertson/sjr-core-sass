@@ -9,6 +9,10 @@ p, ul {
     @include margins();
 }
 
+p:first-child {
+    margin-top: 0;
+}
+
 .small {
     @include text-scale(-1);
     @include margins($base-font-size *.5);

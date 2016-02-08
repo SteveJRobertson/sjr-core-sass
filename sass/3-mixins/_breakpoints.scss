@@ -1,0 +1,3 @@
+@mixin breakpoint($break, $feature: 'min-width') {
+    @media only screen and ($feature: $break) { @content; }
+}

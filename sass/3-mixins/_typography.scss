@@ -75,7 +75,6 @@
 }
 
 @mixin body-text($font-size: $base-font-size) {
-    @include font-size($font-size);
+    font-size: em($font-size);
     line-height: $base-line-height;
-    padding: $base-line-height + em;
 }

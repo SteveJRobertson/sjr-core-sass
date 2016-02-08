@@ -1,9 +1,16 @@
 @import '0-reset/reset';
 
+@import '1-variables/spacing';
+@import '1-variables/breakpoints';
 @import '1-variables/typography';
 
 @import '2-functions/typography';
 
+@import '3-mixins/clearfix';
+@import '3-mixins/breakpoints';
+@import '3-mixins/grid';
 @import '3-mixins/typography';
+
+@import '4-layout/grid';
 
 @import '5-style/typography';
