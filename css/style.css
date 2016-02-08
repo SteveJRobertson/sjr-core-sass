@@ -83,7 +83,7 @@ body:after {
 
 @media only screen and (min-width: 480px) {
   /* line 13, ../sass/3-mixins/_grid.scss */
-  .wrapper--small {
+  .wrapper--sm {
     padding: 0 16px;
     width: 100%;
     margin: 0 auto;
@@ -92,7 +92,7 @@ body:after {
 }
 @media only screen and (min-width: 768px) {
   /* line 13, ../sass/3-mixins/_grid.scss */
-  .wrapper--medium {
+  .wrapper--md {
     padding: 0 16px;
     width: 100%;
     margin: 0 auto;
@@ -101,7 +101,7 @@ body:after {
 }
 @media only screen and (min-width: 1024px) {
   /* line 13, ../sass/3-mixins/_grid.scss */
-  .wrapper--large {
+  .wrapper--lg {
     padding: 0 16px;
     width: 100%;
     margin: 0 auto;
@@ -110,7 +110,7 @@ body:after {
 }
 @media only screen and (min-width: 1280px) {
   /* line 13, ../sass/3-mixins/_grid.scss */
-  .wrapper--xlarge {
+  .wrapper--xl {
     padding: 0 16px;
     width: 100%;
     margin: 0 auto;
@@ -241,84 +241,84 @@ body:after {
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-1--small {
+.col-1--sm {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-2--small {
+.col-2--sm {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-3--small {
+.col-3--sm {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-4--small {
+.col-4--sm {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-5--small {
+.col-5--sm {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-6--small {
+.col-6--sm {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-7--small {
+.col-7--sm {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-8--small {
+.col-8--sm {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-9--small {
+.col-9--sm {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-10--small {
+.col-10--sm {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-11--small {
+.col-11--sm {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-12--small {
+.col-12--sm {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
@@ -326,156 +326,156 @@ body:after {
 
 @media only screen and (min-width: 480px) {
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-1--small {
+  .col-1--sm {
     float: left;
     width: 8.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-2--small {
+  .col-2--sm {
     float: left;
     width: 16.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-3--small {
+  .col-3--sm {
     float: left;
     width: 25%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-4--small {
+  .col-4--sm {
     float: left;
     width: 33.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-5--small {
+  .col-5--sm {
     float: left;
     width: 41.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-6--small {
+  .col-6--sm {
     float: left;
     width: 50%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-7--small {
+  .col-7--sm {
     float: left;
     width: 58.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-8--small {
+  .col-8--sm {
     float: left;
     width: 66.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-9--small {
+  .col-9--sm {
     float: left;
     width: 75%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-10--small {
+  .col-10--sm {
     float: left;
     width: 83.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-11--small {
+  .col-11--sm {
     float: left;
     width: 91.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-12--small {
+  .col-12--sm {
     float: left;
     width: 100%;
   }
 }
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-1--medium {
+.col-1--md {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-2--medium {
+.col-2--md {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-3--medium {
+.col-3--md {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-4--medium {
+.col-4--md {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-5--medium {
+.col-5--md {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-6--medium {
+.col-6--md {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-7--medium {
+.col-7--md {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-8--medium {
+.col-8--md {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-9--medium {
+.col-9--md {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-10--medium {
+.col-10--md {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-11--medium {
+.col-11--md {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-12--medium {
+.col-12--md {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
@@ -483,156 +483,156 @@ body:after {
 
 @media only screen and (min-width: 768px) {
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-1--medium {
+  .col-1--md {
     float: left;
     width: 8.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-2--medium {
+  .col-2--md {
     float: left;
     width: 16.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-3--medium {
+  .col-3--md {
     float: left;
     width: 25%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-4--medium {
+  .col-4--md {
     float: left;
     width: 33.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-5--medium {
+  .col-5--md {
     float: left;
     width: 41.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-6--medium {
+  .col-6--md {
     float: left;
     width: 50%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-7--medium {
+  .col-7--md {
     float: left;
     width: 58.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-8--medium {
+  .col-8--md {
     float: left;
     width: 66.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-9--medium {
+  .col-9--md {
     float: left;
     width: 75%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-10--medium {
+  .col-10--md {
     float: left;
     width: 83.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-11--medium {
+  .col-11--md {
     float: left;
     width: 91.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-12--medium {
+  .col-12--md {
     float: left;
     width: 100%;
   }
 }
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-1--large {
+.col-1--lg {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-2--large {
+.col-2--lg {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-3--large {
+.col-3--lg {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-4--large {
+.col-4--lg {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-5--large {
+.col-5--lg {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-6--large {
+.col-6--lg {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-7--large {
+.col-7--lg {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-8--large {
+.col-8--lg {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-9--large {
+.col-9--lg {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-10--large {
+.col-10--lg {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-11--large {
+.col-11--lg {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-12--large {
+.col-12--lg {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
@@ -640,156 +640,156 @@ body:after {
 
 @media only screen and (min-width: 1024px) {
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-1--large {
+  .col-1--lg {
     float: left;
     width: 8.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-2--large {
+  .col-2--lg {
     float: left;
     width: 16.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-3--large {
+  .col-3--lg {
     float: left;
     width: 25%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-4--large {
+  .col-4--lg {
     float: left;
     width: 33.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-5--large {
+  .col-5--lg {
     float: left;
     width: 41.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-6--large {
+  .col-6--lg {
     float: left;
     width: 50%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-7--large {
+  .col-7--lg {
     float: left;
     width: 58.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-8--large {
+  .col-8--lg {
     float: left;
     width: 66.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-9--large {
+  .col-9--lg {
     float: left;
     width: 75%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-10--large {
+  .col-10--lg {
     float: left;
     width: 83.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-11--large {
+  .col-11--lg {
     float: left;
     width: 91.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-12--large {
+  .col-12--lg {
     float: left;
     width: 100%;
   }
 }
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-1--xlarge {
+.col-1--xl {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-2--xlarge {
+.col-2--xl {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-3--xlarge {
+.col-3--xl {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-4--xlarge {
+.col-4--xl {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-5--xlarge {
+.col-5--xl {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-6--xlarge {
+.col-6--xl {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-7--xlarge {
+.col-7--xl {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-8--xlarge {
+.col-8--xl {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-9--xlarge {
+.col-9--xl {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-10--xlarge {
+.col-10--xl {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-11--xlarge {
+.col-11--xl {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
 }
 
 /* line 45, ../sass/3-mixins/_grid.scss */
-.col-12--xlarge {
+.col-12--xl {
   position: relative;
   min-height: 1px;
   padding: 0 16px;
@@ -797,73 +797,73 @@ body:after {
 
 @media only screen and (min-width: 1280px) {
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-1--xlarge {
+  .col-1--xl {
     float: left;
     width: 8.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-2--xlarge {
+  .col-2--xl {
     float: left;
     width: 16.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-3--xlarge {
+  .col-3--xl {
     float: left;
     width: 25%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-4--xlarge {
+  .col-4--xl {
     float: left;
     width: 33.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-5--xlarge {
+  .col-5--xl {
     float: left;
     width: 41.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-6--xlarge {
+  .col-6--xl {
     float: left;
     width: 50%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-7--xlarge {
+  .col-7--xl {
     float: left;
     width: 58.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-8--xlarge {
+  .col-8--xl {
     float: left;
     width: 66.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-9--xlarge {
+  .col-9--xl {
     float: left;
     width: 75%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-10--xlarge {
+  .col-10--xl {
     float: left;
     width: 83.33333%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-11--xlarge {
+  .col-11--xl {
     float: left;
     width: 91.66667%;
   }
 
   /* line 51, ../sass/3-mixins/_grid.scss */
-  .col-12--xlarge {
+  .col-12--xl {
     float: left;
     width: 100%;
   }
