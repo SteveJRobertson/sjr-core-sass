@@ -1,4 +1,4 @@
-# Core Sass Framework
+# Steve's Sass Framework
 A mobile first Sass framework which forms the basis for all of my projects from 
 now on.
 
